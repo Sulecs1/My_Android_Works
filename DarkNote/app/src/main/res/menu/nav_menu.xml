@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Genel">
+    <menu>
+        <item
+            android:id="@+id/notes"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Notlar" />
+        <item
+            android:id="@+id/addNote"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Not EKle" />
+        <item
+            android:id="@+id/sync"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:title="Senkorize Notlar" />
+    </menu>
+</item>
+    <item android:title="Destekleyiciler">
+    <menu>
+        <item
+            android:id="@+id/rating"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Derecelendir" />
+        <item
+            android:id="@+id/shareapp"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Paylaş" />
+
+    </menu>
+
+    </item>
+
+    <item android:title="Çıkış Yap">
+        <menu>
+            <item
+                android:id="@+id/Logout"
+                android:icon="@android:drawable/presence_offline"
+                android:title="Çıkış Yap" />
+
+        </menu>
+    </item>
+</menu>

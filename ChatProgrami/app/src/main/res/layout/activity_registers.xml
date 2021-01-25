@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegistersActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarRegister"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/actionbarRegister"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_new_account"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/txtUsernameReg"
+            android:layout_width="match_parent"
+            android:hint="@string/username"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:id="@+id/txtEmailReg"
+            android:layout_width="match_parent"
+            android:hint="@string/email"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:id="@+id/txtpasswordRegisters"
+            android:layout_width="match_parent"
+            android:hint="@string/password"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/btnloginRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_with_account"
+            android:background="@android:color/holo_red_light"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

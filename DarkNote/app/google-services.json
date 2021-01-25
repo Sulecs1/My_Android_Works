@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "503934162550",
+    "firebase_url": "https://darknote-983a9.firebaseio.com",
+    "project_id": "darknote-983a9",
+    "storage_bucket": "darknote-983a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503934162550:android:7a9c0447474d8ed13fb157",
+        "android_client_info": {
+          "package_name": "com.suleakcay.darknote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503934162550-t6ar3j0kf7qgdtnta6tjpf1ql18kpg48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suleakcay.darknote",
+            "certificate_hash": "2e0567a5e632ec38cb61e3e6c51890faa6f44487"
+          }
+        },
+        {
+          "client_id": "503934162550-5ojk0265sb466m6035asstaaf0qlpmjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrZbC27mromVOk-OLxnC5K4zN5pxeOsAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503934162550-5ojk0265sb466m6035asstaaf0qlpmjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

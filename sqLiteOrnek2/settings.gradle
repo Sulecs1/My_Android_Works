@@ -1,0 +1,2 @@
+rootProject.name='sqLiteOrnek2'
+include ':app'

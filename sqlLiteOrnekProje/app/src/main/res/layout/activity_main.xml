@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="İsim"
+        android:ems="10"
+        android:id="@+id/etAd"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Soyad"
+        android:ems="10"
+        android:id="@+id/etSoyad"
+        android:layout_below="@+id/etAd"
+        android:layout_alignStart="@+id/etAd" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Telefon"
+        android:ems="10"
+        android:layout_below="@+id/etSoyad"
+        android:layout_alignEnd="@+id/etSoyad"
+        android:id="@+id/etTel" />
+
+    <Button
+        android:text="Kaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/btnKaydet"
+        android:layout_below="@+id/etTel"
+        android:layout_toStartOf="@+id/etTel" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/VeriListele"
+        android:layout_below="@+id/btnKaydet"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/btnListele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listele"
+        android:layout_marginStart="10dp"
+        android:layout_above="@+id/VeriListele"
+        android:layout_toEndOf="@+id/btnKaydet" />
+
+    <Button
+        android:id="@+id/btnSil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:text="Sil"
+        android:layout_above="@+id/VeriListele"
+        android:layout_toEndOf="@+id/btnListele" />
+
+    <Button
+        android:id="@+id/btnDuzenle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSil"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/btnSil"
+        android:text="Düzenle" />
+</RelativeLayout>

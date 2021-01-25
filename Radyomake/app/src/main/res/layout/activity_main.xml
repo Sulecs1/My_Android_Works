@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:anroid="http://schemas.android.com/apk/res/android"
+    anroid:orientation="vertical"
+    anroid:background="#9999ff"
+    anroid:layout_width="fill_parent"
+    anroid:layout_height="fill_parent">
+
+    <TextView
+        anroid:layout_width="fill_parent"
+        anroid:layout_height="wrap_content"
+        anroid:text="RADYO"
+        anroid:layout_marginTop="10dp"
+        anroid:layout_gravity="center"/>
+    <LinearLayout
+        anroid:layout_width="match_parent"
+        anroid:layout_height="wrap_content"
+        anroid:id="@+id/layout1"
+        anroid:layout_marginTop="20dp"
+        anroid:gravity="center">
+
+        <Button
+            anroid:id="@+id/buttonPlay"
+            anroid:layout_width="wrap_content"
+            anroid:layout_height="wrap_content"
+            anroid:background="@android:drawable/presence_audio_away"
+            anroid:text="Play" />
+
+        <Button
+            anroid:id="@+id/buttonStopPlay"
+            anroid:layout_width="wrap_content"
+            anroid:layout_height="wrap_content"
+            anroid:background="@android:drawable/presence_audio_away"
+            anroid:text="STOP" />
+
+    </LinearLayout>
+    <SeekBar
+        anroid:layout_width="match_parent"
+        anroid:layout_height="wrap_content"
+        anroid:id="@+id/seekBar"
+        anroid:background="@android:color/background_dark"
+        />
+
+
+
+
+
+</LinearLayout>

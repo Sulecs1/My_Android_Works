@@ -1,0 +1,2 @@
+rootProject.name='LandMarkBook'
+include ':app'

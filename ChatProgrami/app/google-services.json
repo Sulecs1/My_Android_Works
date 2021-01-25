@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "618098682902",
+    "firebase_url": "https://upheld-magpie-276016.firebaseio.com",
+    "project_id": "upheld-magpie-276016",
+    "storage_bucket": "upheld-magpie-276016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618098682902:android:4f55d229fc645e06781937",
+        "android_client_info": {
+          "package_name": "com.suleakcay.chatprogrami"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618098682902-kvt08ruc0hrgtd8oud1kfu107391mkrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyxFSSFd6fFnCnwlgp5OjqNl86yeN4luY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618098682902-kvt08ruc0hrgtd8oud1kfu107391mkrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
